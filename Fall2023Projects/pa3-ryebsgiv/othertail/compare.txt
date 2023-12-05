@@ -1,0 +1,6 @@
+I got the other tail program from chat gpt. It actually doesn't fully work. 
+However, it does compile and there are some interesting ideas of stuff that it tries to do.
+Firstly, instead of reading the characters to a dynamic array a character at a time like I do, 
+it tries to read all of them into a single buffer and then write that buffer. I think that if their method was to work,
+it would be more efficient since there would be less system calls overall. However, as I said before,
+There method doesn't work. Interesting idea, but non-functioning so obviously it recieves pretty low marks.
